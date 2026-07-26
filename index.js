@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 // این آدرس رو فقط یک بار، بعد از دیپلوی، تو مرورگر باز کن تا وب‌هوک ست بشه
 app.get("/set-webhook", async (req, res) => {
   try {
-    const url = `${req.protocol}://${req.get("host")}${WEBHOOK_PATH}`;
+    const url = `https://${req.get("host")}${WEBHOOK_PATH}`;;
     await bot.setWebHook(url);
     res.send(`وب‌هوک با موفقیت روی این آدرس تنظیم شد:\n${url}`);
   } catch (err) {
