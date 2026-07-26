@@ -1,5 +1,5 @@
 // ساخت و مقداردهی اولیه نمونه ربات تلگرام (حالت وب‌هوک - بدون polling)
-const TelegramBot = require("node-telegram-bot-api");
+const { TelegramBot } = require("node-telegram-bot-api");
 
 const bot = new TelegramBot(process.env.BOT_TOKEN);
 
