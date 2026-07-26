@@ -1,0 +1,15 @@
+{
+  "name": "gamingbot",
+  "version": "1.0.0",
+  "description": "ربات تلگرام حرفه‌ای برای مدیریت گروه گیمینگ، پاسخ خودکار و هوش مصنوعی",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
